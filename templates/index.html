@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Soccer Fitness Tracker</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <div class="container">
+        <h1>Soccer Fitness Tracker</h1>
 
+        <p>
+            Track your running workouts and soccer training.
+        </p>
+
+        <a href="/add">
+    <button>Add Workout</button>
+</a>
+    </div>
 </body>
 </html>
